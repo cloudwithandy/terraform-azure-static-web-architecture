@@ -184,6 +184,7 @@ This is the final validation step showing that the project was not only deployed
 
 ### Architecture overview
 User-> Azure Front Door -> Origin Group -> Azure Storage Static Website 
+This architecture routes user traffic through Azure Front Door to improve global performance and ensure high availability of the static web app.
 
 After successfully deploying the static website, the architecture was enhanced by introducing Azure Front Door to improve performance, security, and global accessibility.
 
