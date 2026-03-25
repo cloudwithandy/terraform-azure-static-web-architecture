@@ -193,5 +193,5 @@ This upgrade provides:
 - Reduced latency for users worldwide
 - A more production-ready cloud architecture
 
-This phase transforms the project from a basic deployment into a real-world, scalable cloud solution. 
+This phase transforms the project from a basic deployment into a real-world, scalable cloud solution.
 
