@@ -40,7 +40,7 @@ This project highlights core skills required for cloud and DevOps engineering ro
 ## Project Progress
 
 ### 1. Repository Created
-![Repository](screenshots/01-repo-created.png)
+![Repository](Screenshots/terraform-azure-static-web-architecture/01-repocreated.png)
 
 This step represents the initialization of the project repository on GitHub.
 The repository serves as the central location for managing Infrastructure as Code (IaC) using Terraform.
@@ -54,7 +54,7 @@ This is a critical first step in any cloud engineering workflow, ensuring proper
 
 
 ### 2. Terraform Initial Commit
-![Commit](screenshots/02-terraform-initial-commit.png)
+![Commit](screenshots/terraform-azure-static-web-architecture//02-terraform-initial-commit.png)
 
 This screenshot captures the first commit of the Terraform configuration.
 
@@ -69,7 +69,7 @@ This mirrors real-world DevOps practices where every infrastructure change is ve
 
 
 ### 3. Terraform Code Breakdown
-![Code](screenshots/03-terraform-code-breakdown.png)
+![Code](screenshots/terraform-azure-static-web-architecture/03-terraform-code-breakdown.png)
 
 This section highlights the Terraform configuration used to deploy the infrastructure.
 
@@ -121,6 +121,61 @@ It reflects real-world engineering workflows where infrastructure is:
 - Automated
 - Version-controlled
 - Reproducible
+
+### 4. Azure Subscription Active
+![Azure Subscription](screenshots/terraform-azure-static-web-architecture/04-azure-subscription-active.png)
+
+This step confirms that an active Azure subscription was available and selected before deployment. Terraform requires a valid subscription in order to provision resources successfully.
+
+This step demonstrates:
+- Azure account verification
+- Subscription selection for deployment
+- Proper CLI environment preparation
+
+
+### 5. Terraform Init
+![Terraform Init](screenshots/terraform-azure-static-web-architecture/05-terraform-init.png)
+
+Terraform was initialized in the project directory to download the required Azure provider and prepare the working directory for infrastructure deployment.
+
+This step demonstrates:
+- Terraform initialization
+- Provider installation
+- Working directory preparation for Infrastructure as Code
+
+
+### 6. Terraform Plan
+![Terraform Plan](screenshots/terraform-azure-static-web-architecture/06-terraform-plan.png)
+
+Terraform plan was used to preview the infrastructure changes before deployment. This validated the configuration and showed exactly which resources would be created.
+
+This step demonstrates:
+- Safe infrastructure previewing
+- Validation before deployment
+- Understanding of the Terraform workflow
+
+
+### 7. Terraform Apply
+![Terraform Apply](screenshots/terraform-azure-static-web-architecture/07-terraform-apply.png)
+
+Terraform apply created the Azure resources defined in the configuration. This included the resource group, storage account, and static website content.
+
+This step demonstrates:
+- Real Azure infrastructure deployment
+- Execution of Terraform in a live environment
+- Automated resource provisioning through code
+
+
+### 8. Live Website
+![Live Website](screenshots/terraform-azure-static-web-architecture/08-live-website.png)
+
+After deployment, the static website endpoint was opened in the browser and successfully displayed the hosted HTML page.
+
+This confirmed that:
+- The Azure resources were deployed correctly
+- Static website hosting was functioning properly
+- The uploaded site content was publicly accessible
+
 
 
 
