@@ -178,6 +178,20 @@ This confirmed that:
 
 This is the final validation step showing that the project was not only deployed, but fully working. 
 
+ This is the final validation step showing that the project was was not only deployed, but fully working.
 
+## Phase 2: Azure Front Door Integration
 
+After successfully deploying the static website, the architecture was enhanced by introducing Azure Front Door to improve performance, security, and global accessibility.
+
+Azure Front Door was configured to route incoming traffic to the static website hosted in Azure Storage.
+
+This upgrade provides:
+
+- Global load balancing across edge locations
+- HTTPS support for secure communication
+- Reduced latency for users worldwide
+- A more production-ready cloud architecture
+
+This phase transforms the project from a basic deployment into a real-world, scalable cloud solution. 
 
