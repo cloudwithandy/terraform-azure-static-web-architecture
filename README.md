@@ -176,6 +176,8 @@ This confirmed that:
 - Static website hosting was functioning properly
 - The uploaded site content was publicly accessible
 
+This is the final validation step showing that the project was not only deployed, but fully working. 
+
 
 
 
