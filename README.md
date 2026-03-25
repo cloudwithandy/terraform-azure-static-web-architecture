@@ -40,7 +40,7 @@ This project highlights core skills required for cloud and DevOps engineering ro
 ## Project Progress
 
 ### 1. Repository Created
-![Repository](Screenshots/terraform-azure-static-web-architecture/01-repocreated.png)
+![Repository](Screenshots/terraform-azure-static-web-architecture/01-repo-created.png)
 
 This step represents the initialization of the project repository on GitHub.
 The repository serves as the central location for managing Infrastructure as Code (IaC) using Terraform.
