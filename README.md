@@ -182,6 +182,9 @@ This is the final validation step showing that the project was not only deployed
 
 ## Phase 2: Azure Front Door Integration
 
+### Architecture overview
+User-> Azure Front Door -> Origin Group -> Azure Storage Static Website 
+
 After successfully deploying the static website, the architecture was enhanced by introducing Azure Front Door to improve performance, security, and global accessibility.
 
 Azure Front Door was configured to route incoming traffic to the static website hosted in Azure Storage.
