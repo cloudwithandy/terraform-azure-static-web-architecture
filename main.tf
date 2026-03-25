@@ -24,4 +24,6 @@ resource "azurerm_storage_blob" "index" {
   storage_account_name   = azurerm_storage_account.storage.name
   storage_container_name = "$web"
   type                   = "Block"
+  content_type           = "text/html"
   source_content         = "<h1>Hello from Terraform Azure Static Site</h1>"
+}
