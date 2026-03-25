@@ -197,6 +197,12 @@ This phase transforms the project from a basic deployment into a real-world, sca
 
 
 Deployment Process – Azure Front Door
+### Terraform configuration 
+
+The terraform code below defines the Azure Front Door setup including the profile, endpoint, origin group, and routing confriguration.
+
+![Terraform code](screenshots/phase-2-frontdoor/09-front-door-terraform-code.png)
+
 Step 1: Initialize Terraform
 
 Run the following command to initialize the Terraform working directory:
@@ -204,13 +210,13 @@ Run the following command to initialize the Terraform working directory:
 terraform init
 
 This command downloads the required provider plugins and prepares Terraform to manage the Azure resources defined in the configuration.
-
+![Init](screenshots/phase-2-frontdoor/10-front-door-terraform-init.png)
 Step 2: Review Execution Plan
 
 Run:
 
 terraform plan
-
+![Plan](screenshots/phase-2-frontdoor/11-front-door-terraform-plan.png)
 This step generates an execution plan showing what resources will be created or modified. It allows verification of the infrastructure before applying any changes.
 
 Step 3: Apply Configuration
@@ -218,15 +224,15 @@ Step 3: Apply Configuration
 Run:
 
 terraform apply
-
+![Apply](screenshots/phase-2-frontdoor/12-front-door-terraform-apply.png)
 This command provisions the Azure resources, including the Front Door profile, endpoint, origin group, and routing configuration.
 
 Step 4: Verify Deployment in Azure
-
+![Azure](screenshots/phase-2-frontdoor/13-front-door-azure-resource.png)
 After deployment, the resources were verified in the Azure Portal to confirm successful creation and proper configuration of Front Door and associated components.
 
 Step 5: Validate Live Endpoint
-
+![Live](screenshots/phase-2-frontdoor/14-front-door-live-endpoint.png)
 The Front Door endpoint was tested to confirm that it correctly routes traffic to the Azure Storage static website and serves content globally.
 
 Key Learning Outcomes
